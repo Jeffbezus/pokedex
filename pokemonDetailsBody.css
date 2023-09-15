@@ -1,0 +1,40 @@
+.navBody{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 1rem;
+}
+
+.table{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentBody{
+    background-color: rgb(228, 223, 223);
+    border-radius: 3rem;
+}
+
+.contentBody h2{
+    color: black;
+    margin: .25rem 0;
+    padding: 1rem;
+}
+
+.table thead tr{
+    display: flex;
+    flex-direction: column;
+}
+
+.table thead tr th{
+    padding: .6rem;
+}
+
+.table tbody tr{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.table tbody tr td{
+    padding: .6rem;
+}

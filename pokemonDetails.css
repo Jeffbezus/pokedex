@@ -1,0 +1,161 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.normal{background-color: #a6a877;}
+
+.grass{background-color: #77c850;}
+
+.fire{background-color: #ee7f30;}
+
+.water{background-color: #678fee;}
+
+.electric{background-color: #f7cf2e;}
+
+.ice{background-color: #98d5d7;}
+
+.ground{background-color: #dfbf69;}
+
+.flying{background-color: #a98ff0;}
+
+.poison{ background-color: #a040a0;}
+
+.fighting{background-color: #bf3029;}
+
+.psychic{background-color: #f65687;}
+
+.dark{background-color: #725847;}
+
+.rock{background-color: #b8a137;}
+
+.bug{ background-color: #a8b720;}
+
+.ghost{background-color: #6e5896;}
+
+.steel{background-color: #b9b7cf;}
+
+.dragon{background-color: #6f38f6;}
+
+.fairy{background-color: #f9aec7;}
+
+
+.content{
+    background-color: #479f1e;
+
+}
+.navSuperior{
+    display: flex;
+    justify-content: space-between;
+}
+.navSuperior img{
+    max-width: 20px;
+}
+
+.content .cabecalho{
+    height: 100vw;
+    align-items: center;
+    padding: 1rem;
+}
+.sectionHeader{
+    display: flex;
+    padding: rem 1rem;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content .cabecalho section img{
+    max-width: 75%;
+    align-self: center;
+    padding-top: 1rem;
+}
+
+.content .cabecalho .infoBasic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .cabecalho .number{
+    color: black;
+    opacity: 0.6;
+    text-align: right;
+    font-size: .625rem;
+}
+
+.content .cabecalho .infoBasic h1{
+    color: #fff;
+    margin: .25rem 0;
+    text-transform: capitalize;
+}
+.content .cabecalho .infoBasic .types{
+    display: flex;
+    text-align: center;
+}
+.content .cabecalho .infoBasic .types h3{
+    color: rgb(0, 0, 0);
+    margin: .5rem;
+    filter: brightness(1.3);
+    border-radius: 1rem;
+    padding: 0.25rem .5rem;
+    font-size: .90rem;
+}
+
+
+@media screen and (min-width: 360px){
+    .content{
+        margin: 0;
+        max-width: 360px;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .content{
+        margin: 0;
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 390px){
+    .content{
+        margin: 0;
+        max-width: 390px;
+    }
+}
+
+@media screen and (min-width: 412px){
+    .content{
+        margin: 0;
+        max-width: 412px;
+    }
+}
+@media screen and (min-width: 500px){
+    .content{
+        margin: 0;
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 550px){
+    .content{
+        margin: 0;
+        max-width: 550px;
+        max-height: max-content;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .content{
+        margin: 0;
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 820px){
+    .content{
+        margin: 0;
+        max-width: 820px;
+        max-height: max-content;
+
+    }
+}
+
+
